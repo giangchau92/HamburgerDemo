@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="HamburgerButton">
+        <attr name="color_line" format="color"/>
+        <attr name="duration" format="integer"/>
+        <attr name="button_type" format="enum">
+            <enum name="back_button" value="0"/>
+            <enum name="close_button" value="1"/>
+            <enum name="close_back_button" value="2" />
+        </attr>
+    </declare-styleable>
+</resources>
